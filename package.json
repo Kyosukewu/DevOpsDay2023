@@ -1,6 +1,6 @@
 {
   "name": "devops-automation-release",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "demo",
   "main": "index.js",
   "directories": {
@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kyosukewu/DevOpsDay2023.git"
+    "url": "git+https://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@github.com/Kyosukewu/DevOpsDay2023.git"
   },
-  "author": "jerry",
+  "author": "Kyosukewu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kyosukewu/DevOpsDay2023/issues"
