@@ -3,8 +3,13 @@
   "version": "0.0.0",
   "description": "demo",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/Kyosukewu/DevOpsDay2023/issues"
   },
-  "homepage": "https://github.com/Kyosukewu/DevOpsDay2023#readme"
+  "homepage": "https://github.com/Kyosukewu/DevOpsDay2023#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3"
+  }
 }
